@@ -1,0 +1,8 @@
+.featuredCategoryItem::after{
+    content: "";
+    position: absolute;
+    border: 1px solid rgba(92, 87, 87, 0.219);
+    right: -25%;
+    top: 15%;
+    height: 70%;
+}
