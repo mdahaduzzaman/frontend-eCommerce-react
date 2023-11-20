@@ -23,7 +23,7 @@ const FlashSaleTime = () => {
 
   return (
     <div>
-      <p>
+      <p className='text-[--white-color]'>
         <span className='bg-[--primary-color] p-2'>{currentTime.hours.toString().padStart(2, '0')}</span>&nbsp;:&nbsp;
         <span className='bg-[--primary-color] p-2'>{currentTime.minutes.toString().padStart(2, '0')}</span>&nbsp;:&nbsp;
         <span className='bg-[--primary-color] p-2'>{currentTime.seconds.toString().padStart(2, '0')}</span>

@@ -1,0 +1,12 @@
+.includeArrow{
+    position: relative;
+}
+
+.includeArrow::after{
+    content: ">";
+    width: 100%;
+    left: 93%;
+    bottom: 25%;
+    font-size: 1.5rem;
+    position: absolute;
+}

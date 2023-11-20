@@ -9,7 +9,9 @@
     --light-color: #eef7f0;
     --white-color: #ffffff;
 }
-
+html{
+    overflow-x: hidden;
+}
 .nav-btn {
     @apply hover:bg-[--secondary-color] flex items-center gap-2 p-2  rounded-md; /* Apply Tailwind's btn and btn-primary utility classes */
 }
