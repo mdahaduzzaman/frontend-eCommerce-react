@@ -26,7 +26,7 @@ function MainCategoryList() {
 
 
   const [activeItemId, setActiveItemId] = useState(null);
-  const [subCategoryList, setSubCategoryList] = useState([]);
+  const [subCategoryList, setSubCategoryList] = useState([mainCategoryList]);
 
   const handleMouseOver = (id) => {
     setActiveItemId(id);
