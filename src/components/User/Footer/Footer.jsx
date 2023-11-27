@@ -1,12 +1,12 @@
-import bkash from '../../assets/bkash.png';
-import instagram from '../../assets/instagram.jpeg'
+import bkash from '../../../assets/bkash.png'
+import instagram from '../../../assets/instagram.jpeg'
 
 function Footer() {
     const paymentMethodsList = [bkash, bkash, bkash, bkash]
     const socialMediaList = [instagram, instagram, instagram, instagram]
     
     return (
-        <footer className='grid grid-cols-4 gap-10 mx-10 text-[--dark-color]'>
+        <footer className='grid grid-cols-4 gap-10 mx-10 text-[--dark-color] mt-3'>
             <div className=''>
                 <h3 className='text-[--primary-color] text-2xl mb-3'>Customer Care</h3>
                 <ul>

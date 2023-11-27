@@ -2,7 +2,7 @@ import React from 'react'
 import CheckOutProgress from '../components/CheckOutProgress'
 import MyCart from '../components/MyCart'
 
-function CartPage() {
+function Carts() {
     return (
         <div>
             <CheckOutProgress />
@@ -11,4 +11,4 @@ function CartPage() {
     )
 }
 
-export default CartPage
+export default Carts

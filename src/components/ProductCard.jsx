@@ -1,8 +1,9 @@
+import { Rate } from 'antd'
 import { useState } from 'react'
-import Rating from './Rating'
 
 function ProductCard({ item }) {
   const [imgHover, setImageHover] = useState(false)
+  
     return (
       <div className='bg-[--white-color] h-[20rem]'  onMouseOver={()=>setImageHover(true)} onMouseOut={()=>setImageHover(false)}>
 
@@ -22,7 +23,7 @@ function ProductCard({ item }) {
             <div className='text-[--dark-color]'>-{item.discount}%</div>
         </div>
         
-        <Rating/>
+        <Rate disabled allowHalf defaultValue={4.6} className='text-md mx-2 my-2' />
       </div>
     )
 }

@@ -3,11 +3,9 @@ import MainCategoryList from "./MainCategoryList";
 
 function Hero() {
   return (
-    <section className=''>
-        <div className='px-10 text-[--dark-color] flex h-[22rem]'>
-          <MainCategoryList/>
-          <MainCarousoul/>
-        </div>
+    <section className='px-10 text-[--dark-color] mt-3 flex gap-5 h-[25rem] w-full'>
+      <MainCategoryList/>
+      <MainCarousoul/>
     </section>
   )
 }

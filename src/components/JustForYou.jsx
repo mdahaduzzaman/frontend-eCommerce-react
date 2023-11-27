@@ -1,5 +1,6 @@
 import ProductCard from './ProductCard'
 import Img from '../assets/download.jpeg'
+import {Link} from 'react-router-dom'
 
 function JustForYou() {
     const ProductList = [
@@ -170,9 +171,9 @@ function JustForYou() {
         <div className="grid grid-cols-6 gap-3">
             {
                 ProductList.map((curElem, index)=>(
-                    <a href="" key={index} className='hover:shadow-lg'>
+                    <Link to={`/products/${curElem.id}`} key={index} className='hover:shadow-lg'>
                         <ProductCard item={curElem}/>
-                    </a>
+                    </Link>
                 ))
             }
         </div>

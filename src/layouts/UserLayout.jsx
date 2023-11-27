@@ -1,10 +1,10 @@
 import { Outlet } from "react-router-dom";
 
 import React from 'react'
-import Navbar from "./components/Header/Navbar";
-import Footer from "./components/Footer/Footer";
+import Navbar from "../components/User/Header/Navbar";
+import Footer from "../components/User/Footer/Footer";
 
-function Layout() {
+function UserLayout() {
     return (
         <>
             <Navbar />
@@ -14,4 +14,4 @@ function Layout() {
     )
 }
 
-export default Layout
+export default UserLayout
